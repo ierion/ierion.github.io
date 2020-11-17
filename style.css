@@ -4,3 +4,9 @@ h1 {
 main {
   background-color: grey;
 }
+h3 {
+  text-align: center;
+}
+.top {
+  background-image: url('./images/Top.png');
+}
