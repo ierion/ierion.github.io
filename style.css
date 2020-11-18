@@ -1,19 +1,39 @@
+
+body {
+  background-image: url("images/background.png") ;
+  background-attachment: fixed;
+
+}
 main {
+
+}
+ ul {
+  list-style-type: none;
+  border-color: grey;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ li {
+  float: left;
+}
+ li a {
+  display: block;
+  margin-top: 17px;
+  margin-right:60px;
+  padding: 0px;
+  font-size: 150%;
+  font-family: impact;
+}
+.toptab {
   background-color: grey;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 40px;
+  font-family: georgia;
+  margin: 10px 25px 10px 20px
 }
-h1 {
-  text-align: center;
-  font-size: 120px;
-  font-family: Arial Black;
-  font-weight: bold;
-}
-h2 {
-  text-align: center;
-  font-size: 50px;
-}
-h3 {
-  text-align: center;
-}
-.top {
-  background-image: url('./images/Top.png');
+
+#right {
+  text-align: right;
 }
