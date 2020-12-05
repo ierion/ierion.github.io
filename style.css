@@ -1,112 +1,54 @@
-
 body {
-  background-image: url("images/background.png") ;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0px;
 }
-p {
-  font-family: georgia;
-  font-size: 25px;
-  margin: 2% 6%
+#topImgCont {
+  height:220px;
+  background-color: rgba(0,68,66,1);
 }
-main {
-  color: #e2e2e2;
-  margin: 0% 6%;
-  border: 0px;
-  padding-top: 1px;
+.navBar {
+  background-color: rgba(0,187,224,1);
   border-style: solid;
-  border-color: #202020;
+  border-width: 2px;
+  border-color: black;
+  float:left;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 0%;
 }
-h1 {
-  text-align: center;
-  font-size: 80px;
-  color: #ffffff
+.navBarEle {
+  float: left;
+  font-size: 50px;
+  list-style-type: none;
+  padding: 0% 5%;
+  background: linear-gradient(180deg, rgba(0,187,224,1) 0%, rgba(0,147,176,1) 100%);
+  color: rgb(255, 255, 255);
 }
-h2 {
-  text-align: center;
-  color: #f2f2f2;
-  font-family: georgia;
-  font-size: 35px;
-  margin: 2% 10%;
-  text
+#profile {
+  float: left;
+  border-radius: 0 100% 0 0;
+  padding-right: 10%;
 }
-h3 {
-  text-align: center;
-  color: #e2e2e2;
-  font-family: arial black;
-  font-size: 30px;
-  margin: 2% 10%;
-  text
-
+#topLeft {
+  border-radius: 75px 0 0 0;
+  margin-left: 0;
+  padding-left: 2%;
 }
-h4 {
-  font-size: 23px;
-}
-ul {
- list-style-type: none;
- border-color: grey;
- margin: 0% 6%;
- padding: 0%;
- overflow: hidden;
- text-align: center;
-}
-li {
- float: left;
-}
-li a {
- display: block;
- text-align: center;
- margin-top: 17px;
- margin-right:50px;
- margin-left:80px;
- margin-bottom: 0px;
- padding: 0px;
- font-size: 150%;
- font-family: impact;
-}
-.lightgrey{
-   background-color: #505050;
-}
-.toptab {
-  border-top-right-radius: 42%;
-  border-top-left-radius: 42%;
-  font-size: 40px;
-  font-family: georgia;
-  color: #f2f2f2;
-  margin: 10px 600px 10px 0x;
-}
-.middle{
-  text-align: center;
-}
-.nospace {
-  margin-bottom: 0px;
+#topImg {
   margin-top: 0px;
-  padding-top: 0px;
-  border-top: 0px;
+  overflow: scroll;
+  margin-bottom: 0%;
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(180deg, rgba(0,68,66,1) 0%, rgba(0,144,172,1) 70%, rgba(0,212,255,1) 100%);
 }
-a:link{
-  color: #d2d2d2;
+/* for navbar */
+a:link {
+  color: white;
   text-decoration: none;
 }
 a:visited {
-  color: #d2d2d2;
-  text-decoration: none;
+  color: white;
 }
-a:hover{
-  color: #FFFFFF;
-  text-decoration: none;
-}
-a:active{
-  color: #d2d2d2;
-  text-decoration: none;
-}
-#meat {
-background-color: #202020;
-border-left: 66px;
-border-right: 66px;
-border-color: #303030;
-border-radius: 0px;
-border-style: solid;
+a:hover {
+  color: rgb(0, 247, 255)
 }
