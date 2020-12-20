@@ -29,6 +29,9 @@ function refreshScreenWidth() {
     navliElements[i].style.fontSize = `${intendedWidth}px`;
     document.getElementById("navli1-hp").style.fontSize = `${intendedWidth}px`;
   }
+  setTimeout(() => {
+    refreshScreenWidth()
+  }, 20);
 }
 
 
