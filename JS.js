@@ -1,6 +1,6 @@
-
-scrAmt = 0;
-timeAmt = 0;
+let scrAmt = 0;
+let timeAmt = 0;
+let width = 0;
 
 refreshScroll(20);
 refreshtime();
@@ -11,11 +11,25 @@ setTimeout(() => {
   fadeInById('cta-hp', 2000, 500, 5, 0);
   fadeInById('question1-hp', 2000, 1000, 5, 0);
   fadeInById('answer1-hp', 3200, 1250, 10, 0);
-  fadeInById('answer1.1-hp', 3200, 0, 10, 1);
   fadeInById('answer1.2-hp', 3200, 0, 10, 101)
   fadeInById('question2-hp', 2000, 0, 5, 301);
   fadeInById('answer2-hp', 3200, 250, 10, 399);
-}, 10);
+}, 0);
+
+let navliElements = document.getElementsByClassName("navli");
+refreshScreenWidth();
+function refreshScreenWidth() {
+
+  width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+  console.log(width);
+
+  for (let i = 0; i<navliElements.length; i++) {
+    let intendedWidth = 20 + width/80;
+    navliElements[i].style.fontSize = `${intendedWidth}px`;
+    document.getElementById("navli1-hp").style.fontSize = `${intendedWidth}px`;
+  }
+}
 
 
 function fadeInById(id, time, startTime, ease, requiredScrollAmount) {

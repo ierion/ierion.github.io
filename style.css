@@ -6,7 +6,7 @@ nav {
   padding-top: 0px;
   padding-bottom: 0.3%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgb(97, 97, 97);
+  color:  rgb(238, 238, 238);
   font-size: 110%;
   background-color: rgba(75, 75, 75, 0.99);
   position: fixed;
@@ -21,17 +21,18 @@ ul {
   float: right;
   text-align: center;
   list-style: none;
-  margin-left: 1vw;
-  padding-top: 1%;
+  padding-top: 0.2%;
+  margin-left: 3vw;
   margin-top: 0px;
 }
 .navli1 {
   float: right;
   list-style: none;
   margin-right: 5vw;
-  margin-left: 1vw;
+  margin-left: 3vw;
   margin-top: 0px;
-  padding-top: 1%;
+  padding-top: 0.2%;
+  text-align: bottom;
 }
 .navbutton {
   float: right;
@@ -48,7 +49,6 @@ ul {
   padding-top: 0.05%;
 }
 body {
-  margin: 0;
   border: 0px;
   margin-top: 0px;
   padding-top: 0px;
@@ -67,17 +67,17 @@ h1 {
   margin: 0vw 8vw
 }
 .question {
-  color: rgb(56, 64, 84);
+  color: rgb(101, 131, 208);
   font-size: 325%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
   margin-bottom: 0px;
 }
 .answer {
-  color: rgb(49, 49, 49);
+  color: rgb(184, 184, 184);
   font-size: 220%;
   font-family: 'Roboto', sans-serif;
-  text-align: center;
+  text-align: left;
   margin: 0vw 5vw 6vh 5vw
 }
 .top {
@@ -123,10 +123,10 @@ nav a:link {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   float: right;
   list-style: none;
-  margin-left: 2vw;
+  margin-left: 0vw;
   padding-top: 0%;
   margin-top: 0px;
-  font-size: 120%
+  font-size: 110%
 }
 nav a:visited {
   text-decoration: none;
@@ -134,7 +134,7 @@ nav a:visited {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   float: right;
   list-style: none;
-  margin-left: 2vw;
+  margin-left: 0vw;
   padding-top: 0%;
   margin-top: 0px;
   font-size: 110%;
@@ -145,7 +145,7 @@ nav a:hover {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   float: right;
   list-style: none;
-  margin-left: 2vw;
+  margin-left: 0vw;
   padding-top: 0%;
   margin-top: 0px;
   font-size: 110%
@@ -156,9 +156,9 @@ nav a:active {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   float: right;
   list-style: none;
-  margin-left: 2vw;
+  margin-left: 0vw;
   padding-top: 0%;
-  margin-top: 1vw;
+  margin-top: 0px;
   font-size: 110%
 }
 a:hover.buttonLink {
