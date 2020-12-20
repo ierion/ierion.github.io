@@ -4,8 +4,8 @@ timeAmt = 0;
 
 refreshScroll(20);
 refreshtime();
-slideFromCenter('line-hp', 0, 70);
-slideFromCenter('line2-hp', 99, 20);
+slideFromCenter('line-hp', 0, 90);
+slideFromCenter('line2-hp', 199, 20);
 slideFromCenter('line3-hp', 499, 60);
 setTimeout(() => {
   fadeInById('cta-hp', 2000, 500, 5, 0);
