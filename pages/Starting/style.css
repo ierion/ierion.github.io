@@ -2,16 +2,116 @@
     Secondary Color: rgb(34, 56, 92)
     Tertiary Color: rgb(0, 179, 255)
     Plain: rgb(46, 46, 46)*/
+/* LOCAL SECTION */
 
-body::-webkit-scrollbar {
-  display: none;
+/* FIRST OPTION */
+.firstOptionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
 }
+.firstOption {
+  background: linear-gradient(145deg, rgba(0,185,255,.7) 0%, rgba(0,255,239,.7) 100%);
+  border-radius: 30px;
+  text-align: center;
+  font-size: 200%;
+  padding: 0px;
+  margin: 0px;
+  width: 37vw;
+  cursor: pointer;
+}
+.firstOption2{
+  background: linear-gradient(42deg, rgba(0,255,239,.7) 0%, rgba(0,185,255,.7) 100%);
+  border-radius: 30px;
+  text-align: center;
+  font-size: 200%;
+  padding: 0px;
+  margin: 0px;
+  width: 37vw;
+}
+.firstOption p{
+  margin: 20px;
+  padding: 0px;
+}
+.firstOption h2{
+  margin: 0px;
+  padding: 0px;
+}
+.firstOption2 p{
+  margin: 20px;
+  padding: 0px;
+}
+.firstOption2 h2{
+  margin: 0px;
+  padding: 0px;
+}
+/*END OF FIRST OPTION */
+
+/*START OF SECOND OPTION*/
+
+.secondOptionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
+}
+.secondOption {
+  background: linear-gradient(145deg, rgba(0,185,255,.7) 0%, rgba(0,255,239,.7) 100%);
+  border-radius: 30px;
+  text-align: center;
+  font-size: 200%;
+  padding: 0px;
+  margin: 0px;
+  width: 37vw;
+}
+.secondOption2{
+  background: linear-gradient(42deg, rgba(0,255,239,.7) 0%, rgba(0,185,255,.7) 100%);
+  border-radius: 30px;
+  text-align: center;
+  width: 37vw;
+  font-size: 200%;
+  padding: 0px;
+  margin: 0px;
+}
+.secondOption p{
+  margin: 20px;
+  padding: 0px;
+}
+.secondOption h2{
+  margin: 0px;
+  padding: 0px;
+}
+.secondOption2 p{
+  margin: 20px;
+  padding: 0px;
+}
+.secondOption2 h2{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*END OF SECOND OPTION*/
+
+/* END OF LOCAL SECTION */
 body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url('images/Tech-Working.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 53px;
+  background-color: rgb(56, 56, 56);
+  color:rgb(235, 235, 235);
+  background: linear-gradient(90deg, rgba(42,42,42,1) 0%, rgba(68,67,67,1) 40%, rgba(68,67,67,1) 60%, rgba(42,42,42,1) 100%);
 }
-
-
 nav {
   padding-top: 0px;
   padding-bottom: 0.3%;
@@ -58,16 +158,6 @@ ul {
   font-weight: bold;
   text-align: center;
   padding-top: 0.05%;
-}
-body {
-  border: 0px;
-  margin-top: 0px;
-  padding-top: 0px;
-  background-image: url('images/Tech-Working.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: 53px;
-  background-color: rgb(31, 31, 31);
 }
 h1 {
   text-align: center;

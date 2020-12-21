@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"></link>
+  <script src="../../JSFrameWork.js"></script>
+  <nav>
+    <ul>
+      <li class="navli1 navli" id="navli1-hp"><a href="../pages/Profile/profile.html">Profile</a></li>
+      <li class="navli"><a href="../../index.html">About</a></li>
+      <li class="navli"><a href="../Projects/projects.html">Projects</a></li>
+      <li class="navli"><a href="../Mastering/mastering.html">Mastery</a></li>
+      <li id="navbutton" class="navli"><a href="../Starting/starting.html"><span class="navbutton">Start Now<span></a></li>
+    </ul>
+    <br>
+  </nav>
+  <body>
+    <main>
+      <br><br><br>
+      <div class="firstOptionContainer">
+        <span class="firstOption" id="firstOption1" onclick="fadeInByIdLocal1('secondOptionContainer', 3000, 10, 5, -1); slideFromCenter('firstLine', -1, 80);">
+          <h2>Long Term Growth</h2>
+          <p>More money, and do things you like!</p>
+        </span>
+        <span class="firstOption2" id="firstOption2">
+         <h2>Short Term Money</h2>
+         <p>Less money, but doesn't take as long.</p>
+        </span>
+      </div>
+      <br><br>
+      <hr id="firstLine">
+      <div class="secondOptionContainer" id="secondOptionContainer" style="opacity:0;">
+        <span class="secondOption">
+          <p>How much is money a factor in your choice?</p>
+          <form action="SubPages/Growth-1/starting.html" method="GET">
+            <input type="range" name="moneyFactor">
+          </form>
+        </span>
+        <span class="secondOption2">
+          <p>How much is enjoyment a factor in your choice?</p>
+        </span>
+      </div>
+    </main>
+    <script src="JS-Local.js"></script>
+  </body>
+</html> 

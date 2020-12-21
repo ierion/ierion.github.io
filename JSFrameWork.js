@@ -2,30 +2,14 @@ let scrAmt = 0;
 let timeAmt = 0;
 let width = 0;
 
-refreshScroll(20);
-refreshtime();
-slideFromCenter('line-hp', 0, 90);
-slideFromCenter('line2-hp', 199, 20);
-slideFromCenter('line3-hp', 499, 60);
-setTimeout(() => {
-  fadeInById('cta-hp', 2000, 500, 5, 0);
-  fadeInById('question1-hp', 2000, 1000, 5, 0);
-  fadeInById('answer1-hp', 3200, 1250, 10, 0);
-  fadeInById('answer1.2-hp', 3200, 0, 10, 101)
-  fadeInById('question2-hp', 2000, 0, 5, 301);
-  fadeInById('answer2-hp', 3200, 250, 10, 399);
-}, 0);
-
 let navliElements = document.getElementsByClassName("navli");
 refreshScreenWidth();
 function refreshScreenWidth() {
 
   width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-  console.log(width);
-
   for (let i = 0; i<navliElements.length; i++) {
-    let intendedWidth = 20 + width/80;
+    let intendedWidth = 10 + width/100;
     navliElements[i].style.fontSize = `${intendedWidth}px`;
     document.getElementById("navli1-hp").style.fontSize = `${intendedWidth}px`;
   }
@@ -95,7 +79,6 @@ function slideFromCenter(id, requiredScrAmt, lineLength) {
       }
   }
   subfunction1(id, lineLength);
-  console.log('success');
 }
 function refreshScroll(varTime) {
   scrAmt = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
