@@ -187,7 +187,7 @@ a:hover {
   font-size: 110%
 }
 a:hover.buttonLink {
-  color: rgb(0, 179, 255);
+  color: rgb(40, 238, 252);
 }
 div a:active {
   color: inherit;
